@@ -1,3 +1,21 @@
 [submodule "ColmarCapstoneAssets"]
 	path = ColmarCapstoneAssets
 	url = https://github.com/kekan94/ColmarCapstoneAssets
+[submodule "Dasmotos-Arts-And-Crafts"]
+	path = Dasmotos-Arts-And-Crafts
+	url = https://github.com/kekan94/Dasmotos-Arts-And-Crafts
+[submodule "FormAStory"]
+	path = FormAStory
+	url = https://github.com/kekan94/FormAStory
+[submodule "Fotomatic"]
+	path = Fotomatic
+	url = https://github.com/kekan94/Fotomatic
+[submodule "Number-Guesser"]
+	path = Number-Guesser
+	url = https://github.com/kekan94/Number-Guesser
+[submodule "PianoKeys"]
+	path = PianoKeys
+	url = https://github.com/kekan94/PianoKeys
+[submodule "TeaCozy"]
+	path = TeaCozy
+	url = https://github.com/kekan94/TeaCozy
