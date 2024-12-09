@@ -26,7 +26,7 @@ body {
     padding: 0.5rem;
 }
 
-#root {
+#root, .App {
     background-color: var(--background-color);
 }
 
@@ -40,7 +40,7 @@ h2 {
     margin-top: 1rem;
 }
 
-i {
+i, svg {
     font-size: 4rem !important;
     margin: 0 2rem;
     color: black;
@@ -100,7 +100,7 @@ a {
     background-color: var(--background-color);
 }
 
-.design-white {
+.designWhite {
     width: 95%;
     height: 1rem;
     position: relative;
@@ -112,6 +112,10 @@ a {
 }
 
 /*Header*/
+
+header {
+    background-color: var(--background-color);
+}
  
 nav {
     display: flex;
@@ -250,12 +254,6 @@ section h3 {
     border-left: 0.5rem solid var(--background-color);
 }
 
-#table-border {
-    border: 1rem solid var(--background-color);
-    border-radius: 15%;
-    width: 51.875rem;
-}
-
 .projects {
     list-style-image: url('./list-style-star.png');
     display: block;
@@ -305,7 +303,8 @@ footer li {
     border-radius: 25% 10%;
 }
 
-footer i {
+footer svg {
     color: var(--link-foreground-color) !important;
     padding: 0.5rem 0;
 }
+
