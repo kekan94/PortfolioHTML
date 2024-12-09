@@ -34,7 +34,7 @@ function App() {
             <main>
                 <section id="introduction">
                     <div id="picture">
-                        <img src={profileImage} alt="Marko's picture"/>
+                        <img src={profileImage} alt="Marko Kekanovic"/>
                         <a href="./resources/My CV.pdf" target="_blank"><div class="peeler"><i class="fa-regular fa-file-pdf"></i></div></a>
                     </div>
                     <div id="personalInfo">
