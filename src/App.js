@@ -7,7 +7,17 @@ import { faDesktop, faEnvelopeSquare, faMobile, faTablet } from "@fortawesome/fr
 
 const profileImage = require('./resources/img-profile-picture.jpg');
 
+/*const htmlPagesArray = [
+    '../Dasmotos-Arts-And-Crafts/index.html',
+    '../TeaCozy/tea-cozy.html',
+    '../Fotomatic/index.html',
+    '../ColmarCapstoneAssets/index.html',
+    '../FormAStory/index.html',
+    '../PianoKeys/index.html'
+];*/
+
 function App() {
+
     return (
         <div className="App">
             <header>
@@ -24,7 +34,7 @@ function App() {
             <main>
                 <section id="introduction">
                     <div id="picture">
-                        <img src={profileImage}/>
+                        <img src={profileImage} alt="Marko's picture"/>
                         <a href="./resources/My CV.pdf" target="_blank"><div class="peeler"><i class="fa-regular fa-file-pdf"></i></div></a>
                     </div>
                     <div id="personalInfo">
@@ -96,20 +106,20 @@ function App() {
                         </div>
                         <div id="cell">
                             <ul className="projects">
-                                <li><a href="../Dasmotos-Arts-And-Crafts/index.html" target="_blank">Dasmoto's Arts & Crafts</a></li>
-                                <li><a href="../TeaCozy/tea-cozy.html" target="_blank">Tea Cozy</a></li>
-                                <li><a href="../Fotomatic/index.html" target="_blank">Fotomatic</a></li>
-                                <li><a href="../ColmarCapstoneAssets/index.html" target="_blank">Capstone Colmar Assets</a></li>
-                                <li><a href="../FormAStory/index.html" target="_blank">Form A Story</a></li>
-                                <li><a href="../PianoKeys/index.html" target="_blank">Piano Keys</a></li>
+                                <li><a href="https://github.com/kekan94/Dasmotos-Arts-And-Crafts" target="_blank" rel="noreferrer">Dasmoto's Arts & Crafts</a></li>
+                                <li><a href="https://github.com/kekan94/TeaCozy" target="_blank" rel="noreferrer">Tea Cozy</a></li>
+                                <li><a href="https://github.com/kekan94/Fotomatic" target="_blank" rel="noreferrer">Fotomatic</a></li>
+                                <li><a href="https://github.com/kekan94/ColmarCapstoneAssets" target="_blank" rel="noreferrer">Colmar Capstone Assets</a></li>
+                                <li><a href="https://github.com/kekan94/FormAStory" target="_blank" rel="noreferrer">Form A Story</a></li>
+                                <li><a href="https://github.com/kekan94/PianoKeys" target="_blank" rel="noreferrer">Piano Keys</a></li>
                             </ul>
                         </div>
                         <div id="cell">
                             <ul className="projects">
-                                <li><a href="https://github.com/kekan94/MysteriousOrganism" target="_blank">Mysterious Organism</a></li>
-                                <li><a href="https://github.com/kekan94/CreditCardChecker" target="_blank">Credit Card Checker</a></li>
-                                <li><a href="../Number-Guesser/index.html" target="_blank">Number Guesser</a></li>
-                                <li><a href="https://github.com/kekan94/FindYourHat" target="_blank">Find Your Hat</a></li>
+                                <li><a href="https://github.com/kekan94/MysteriousOrganism" target="_blank" rel="noreferrer">Mysterious Organism</a></li>
+                                <li><a href="https://github.com/kekan94/CreditCardChecker" target="_blank" rel="noreferrer">Credit Card Checker</a></li>
+                                <li><a href="../Number-Guesser/index.html" target="_blank" rel="noreferrer">Number Guesser</a></li>
+                                <li><a href="https://github.com/kekan94/FindYourHat" target="_blank" rel="noreferrer">Find Your Hat</a></li>
                             </ul>
                         </div>
                         <div id="cell">
@@ -117,10 +127,10 @@ function App() {
                                 {/*Fix the next two then add them
                                 <li><a href="">Flashcards</a></li>
                                 <li><a href="https://github.com/kekan94/Jamming">Jamming</a></li>*/}
-                                <li><a href="https://github.com/kekan94/react-router" target="_blank">Article React Router</a></li>
-                                <li><a href="https://github.com/kekan94/AppointmentPlanner" target="_blank">Appointment Planner</a></li>
-                                <li><a href="https://github.com/kekan94/react-router-pet-project" target="_blank">Pet React Router</a></li>
-                                <li><a href="https://github.com/kekan94/reddit-client" target="_blank">Reddit Client</a></li>
+                                <li><a href="https://github.com/kekan94/react-router" target="_blank" rel="noreferrer">Article React Router</a></li>
+                                <li><a href="https://github.com/kekan94/AppointmentPlanner" target="_blank" rel="noreferrer">Appointment Planner</a></li>
+                                <li><a href="https://github.com/kekan94/react-router-pet-project" target="_blank" rel="noreferrer">Pet React Router</a></li>
+                                <li><a href="https://github.com/kekan94/reddit-client" target="_blank" rel="noreferrer">Reddit Client</a></li>
                             </ul>
                         </div>
                     </div>
@@ -142,9 +152,9 @@ function App() {
                 <h2>Contact</h2>
                 <div id="icons" className="contact">
                     <ul id="contact">
-                        <li><a href="https://www.facebook.com/keka.captainginyu" target="_blank"><FontAwesomeIcon icon={faFacebook} /></a></li>
-                        <li><a href="mailto:marko.keka94@gmail.com" target="_blank"><FontAwesomeIcon icon={faEnvelopeSquare} /></a></li>
-                        <li><a href="https://github.com/kekan94" target="_blank"><FontAwesomeIcon icon={faGithub} /></a></li>
+                        <li><a href="https://www.facebook.com/keka.captainginyu" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} /></a></li>
+                        <li><a href="mailto:marko.keka94@gmail.com" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelopeSquare} /></a></li>
+                        <li><a href="https://github.com/kekan94" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a></li>
                     </ul>
                 </div>
             </footer>
