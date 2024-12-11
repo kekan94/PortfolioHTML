@@ -3,7 +3,7 @@ import './resources/styleReact.css';
 import './resources/img-profile-picture.jpg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCss3Alt, faFacebook, faGit, faGithub, faHtml5, faJs, faReact } from "@fortawesome/free-brands-svg-icons";
-import { faDesktop, faEnvelopeSquare, faMobile, faTablet, faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import { /*faDesktop, faMobile, faTablet,*/ faEnvelopeSquare, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 const profileImage = require('./resources/img-profile-picture.jpg');
 const pdf = require('./resources/MyCV.pdf');
@@ -36,7 +36,7 @@ function App() {
                 <section id="introduction">
                     <div id="picture">
                         <img src={profileImage} alt="Marko Kekanovic"/>
-                        <a href={pdf} target="_blank"><FontAwesomeIcon icon={faFilePdf} /></a>
+                        <a href={pdf} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFilePdf} /></a>
                     </div>
                     <div id="personalInfo">
                     <h2>Personal Information</h2>
