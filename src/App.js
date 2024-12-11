@@ -3,9 +3,10 @@ import './resources/styleReact.css';
 import './resources/img-profile-picture.jpg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCss3Alt, faFacebook, faGit, faGithub, faHtml5, faJs, faReact } from "@fortawesome/free-brands-svg-icons";
-import { faDesktop, faEnvelopeSquare, faMobile, faTablet } from "@fortawesome/free-solid-svg-icons";
+import { faDesktop, faEnvelopeSquare, faMobile, faTablet, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 const profileImage = require('./resources/img-profile-picture.jpg');
+const pdf = require('./resources/MyCV.pdf');
 
 /*const htmlPagesArray = [
     '../Dasmotos-Arts-And-Crafts/index.html',
@@ -35,7 +36,7 @@ function App() {
                 <section id="introduction">
                     <div id="picture">
                         <img src={profileImage} alt="Marko Kekanovic"/>
-                        <a href="./resources/My CV.pdf" target="_blank"><div class="peeler"><i class="fa-regular fa-file-pdf"></i></div></a>
+                        <a href={pdf} target="_blank"><FontAwesomeIcon icon={faFilePdf} /></a>
                     </div>
                     <div id="personalInfo">
                     <h2>Personal Information</h2>
@@ -90,19 +91,19 @@ function App() {
                 <section id="projects">
                     <h2>Projects (In Order Of Increasing Skill Implementation)</h2>
                     <p>The following projects shown in the table below are implemented only as practice projects and are not fully functional
-                        as such. For full implementation, please <a href="#contact"><em>contact me</em></a>. Projects were not intended
+                        as such. For full implementation, please <a href="#contact" className="textLink"><em>contact me</em></a>. Projects were not intended
                         to be a part of a Portfolio website initially, thus, some of them are either not at all implemented into the HTML
                         (in the case of JavaScript based projects) whilst others (React based) would add unnecessary complication of code
                         for a Portfolio website.</p>
                     <div id="table">
                         <div id="cell">
-                            <p><i className="fa-brands fa-html5"></i>&<i className="fa-brands fa-css3-alt"></i> BASED</p>
+                            <p><FontAwesomeIcon icon={faHtml5} />&<FontAwesomeIcon icon={faCss3Alt} /> BASED</p>
                         </div>
                         <div id="cell">
-                            <p><i className="fa-brands fa-js"></i> BASED</p>
+                            <p><FontAwesomeIcon icon={faJs} /> BASED</p>
                         </div>
                         <div id="cell">
-                            <p><i className="fa-brands fa-react"></i> BASED</p>
+                            <p><FontAwesomeIcon icon={faReact} /> BASED</p>
                         </div>
                         <div id="cell">
                             <ul className="projects">
@@ -135,7 +136,7 @@ function App() {
                         </div>
                     </div>
                 </section>
-                <div className="design">
+                {/*<div className="design">
                     <div className="designWhite"></div>
                 </div>
                 <section id="compatibility">
@@ -146,7 +147,7 @@ function App() {
                         <FontAwesomeIcon icon={faTablet} />
                         <FontAwesomeIcon icon={faDesktop} />
                     </div>
-                </section>
+                </section>*/}
             </main>
             <footer>
                 <h2>Contact</h2>
