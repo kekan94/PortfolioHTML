@@ -150,7 +150,7 @@ function App() {
                 </section>*/}
             </main>
             <footer>
-                <h2>Contact</h2>
+                <h2>Contact: 066/451-559</h2>
                 <div id="icons" className="contact">
                     <ul id="contact">
                         <li><a href="https://www.facebook.com/keka.captainginyu" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} /></a></li>
