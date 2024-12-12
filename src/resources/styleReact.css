@@ -207,11 +207,15 @@ section h3 {
 }
 
 #table p {
-    text-align: center;
-    margin: 0 auto;
+    display: flex;
+    /*text-align: center;*/
+    margin: 0 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-#table i {
+#table svg {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
 }
@@ -224,6 +228,8 @@ section h3 {
 #cell:nth-child(1) {
     border-right: 0.5rem solid var(--background-color);
     background-color: var(--link-color);
+    height: 12rem;
+    line-height: 6rem;
 }
 
 #cell:nth-child(2) {
@@ -237,7 +243,7 @@ section h3 {
     background-color: var(--link-color);
 }
 
-#cell:nth-child(1), #cell:nth-child(2), #cell:nth-child(3) {
+#cell:nth-child(2), #cell:nth-child(3) {
     height: 12rem;
     line-height: 12rem;
 }
@@ -387,8 +393,16 @@ footer svg {
         width: 1.5rem;
     }
 
-    #table p {
-        text-overflow: clip;
+    #cell:nth-child(1) svg:nth-child(1) {
+        margin-left: 0;
+    }
+
+    #cell:nth-child(1) svg:nth-child(2) {
+        margin-right: 0;
+    }
+
+    #cell:nth-child(2), #cell:nth-child(3) p {
+        height: 12rem;
     }
 
     .projects {
