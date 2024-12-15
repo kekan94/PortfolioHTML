@@ -47,11 +47,11 @@ function App() {
                         work pro bono. As years went by, I started falling in love with a myriad of natural sciences. During high school
                         years, I was also enamored with history as it was helping me understand civilizations and what brought about
                         the world as we know it. In the end, I decided to attend the Faculty of Physics in Belgrade, Serbia.
-                        Unfortunately, in time, I became disillusioned with the physics today as I had finally understood that it would
-                        require for all of my time to be dedicated to this field and even still probably end up not feeling that I have
-                        brought something of worth to the planet. Thus, I left my studies and fell in love with programming as I now see
-                        that it is the perfect way of being creative whilst also being able to see the fruits of my labor in action. This
-                        also provides me with ample time to pursue my passion of physical training.</p>
+                        After reaching the fourth year of my studies, I could not see myself having a career in physics because it does
+                        not hold the same appeal as the physics of the past did for me. Thus, I left my studies and fell in love with 
+                        programming as I now see that it is the perfect way of being creative whilst also being able to see the fruits
+                        of my labor in action almost instantaneously. This also provides me with ample time to pursue my passion of
+                        physical training.</p>
                     </div>
                 </section>
                 <div className="design">
@@ -63,11 +63,10 @@ function App() {
                     <p>As stated before, during my studies at the Faculty of Physics in Belgrade, I found myself not having enough of an 
                         interest in any of the subject matters thus promoting a decision to undergo Codecademy Front-end Engineer Career
                         Path as programming offers intellectual challenges in an exciting manner unlike my studies at the Faculty of
-                        Physics which were full of tedious lessons.</p>
-                    <p>After some lower-back issues that have plagued me for some time, I was finally able to dedicate myself to learning
-                        and information retention and have been doing so for the past two years. A lot of times, my perfectionism gets 
-                        the best of me, thus leading me to research a lot of matters that may have not been necessary in order to loand
-                        me a job in the field.</p>
+                        Physics.</p>
+                    <p>I was finally able to dedicate myself to learning and information retention and have been doing so for the past
+                        two years. A lot of times, my perfectionism gets the best of me, thus leading me to research a lot of matters
+                        that may have not been necessary in order to land me a job in the field.</p>
                     </div>
                 </section>
                 <div className="design">
@@ -90,14 +89,15 @@ function App() {
                 </div>
                 <section id="projects">
                     <h2>Projects (In Order Of Increasing Skill Implementation)</h2>
-                    <p>The following projects shown in the table below are implemented only as practice projects and are not fully functional
-                        as such. For full implementation, please <a href="#contact" className="textLink"><em>contact me</em></a>. Projects were not intended
-                        to be a part of a Portfolio website initially, thus, some of them are either not at all implemented into the HTML
-                        (in the case of JavaScript based projects) whilst others (React based) would add unnecessary complication of code
-                        for a Portfolio website.</p>
+                    <p>The following projects shown in the table below are implemented only as practice projects and are not fully 
+                        functional as such. For full implementation, please <a href="#contact" className="textLink"><em>contact me</em></a>.
+                        Projects were not intended to be a part of a Portfolio website initially, thus, some of them are either not at
+                        all implemented into the HTML (in the case of JavaScript based projects) whilst others (React based) would add
+                        unnecessary complication of code for a Portfolio website.</p>
                     <div id="table">
                         <div id="cell">
-                            <p><FontAwesomeIcon icon={faHtml5} />&<FontAwesomeIcon icon={faCss3Alt} /> BASED</p>
+                            <p><FontAwesomeIcon icon={faHtml5} />&<FontAwesomeIcon icon={faCss3Alt} /></p>
+                            <p>BASED</p>
                         </div>
                         <div id="cell">
                             <p><FontAwesomeIcon icon={faJs} /> BASED</p>
