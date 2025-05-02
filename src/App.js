@@ -6,7 +6,7 @@ import { faCss3Alt, faFacebook, faGit, faGithub, faHtml5, faJs, faReact } from "
 import { /*faDesktop, faMobile, faTablet,*/ faEnvelopeSquare, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 const profileImage = require('./resources/img-profile-picture.jpg');
-const pdf = require('./resources/MyCV(IToptimized).pdf');
+const pdf = require('./resources/MarkoKekanovicCV.pdf');
 
 /*const htmlPagesArray = [
     '../Dasmotos-Arts-And-Crafts/index.html',
@@ -47,8 +47,7 @@ function App() {
                         work pro bono. As years went by, I started falling in love with a myriad of natural sciences. During high school
                         years, I was also enamored with history as it was helping me understand civilizations and what brought about
                         the world as we know it. In the end, I decided to attend the Faculty of Physics in Belgrade, Serbia.
-                        After reaching the fourth year of my studies, I could not see myself having a career in physics because it does
-                        not hold the same appeal as the physics of the past did for me. Thus, I left my studies and fell in love with 
+                        After reaching the fourth year of my studies, I could not see myself having a career in physics. Thus, I left my studies and fell in love with 
                         programming as I now see that it is the perfect way of being creative whilst also being able to see the fruits
                         of my labor in action almost instantaneously. This also provides me with ample time to pursue my passion of
                         physical training.</p>
