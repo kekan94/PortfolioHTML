@@ -61,8 +61,7 @@ function App() {
                     <div id="description">
                     <p>As stated before, during my studies at the Faculty of Physics in Belgrade, I found myself not having enough of an 
                         interest in any of the subject matters thus promoting a decision to undergo Codecademy Front-end Engineer Career
-                        Path as programming offers intellectual challenges in an exciting manner unlike my studies at the Faculty of
-                        Physics.</p>
+                        Path as programming offers intellectual challenges in an exciting manner.</p>
                     <p>I was finally able to dedicate myself to learning and information retention and have been doing so for the past
                         two years. A lot of times, my perfectionism gets the best of me, thus leading me to research a lot of matters
                         that may have not been necessary in order to land me a job in the field.</p>
@@ -124,9 +123,9 @@ function App() {
                         </div>
                         <div id="cell">
                             <ul className="projects">
-                                {/*Fix the next two then add them
-                                <li><a href="">Flashcards</a></li>
-                                <li><a href="https://github.com/kekan94/Jamming">Jamming</a></li>*/}
+                                {/*Fix the next then add it
+                                <li><a href="">Flashcards</a></li>*/}
+                                <li><a href="https://github.com/kekan94/Jamming">Jamming</a></li>
                                 <li><a href="https://github.com/kekan94/react-router" target="_blank" rel="noreferrer">Article React Router</a></li>
                                 <li><a href="https://github.com/kekan94/AppointmentPlanner" target="_blank" rel="noreferrer">Appointment Planner</a></li>
                                 <li><a href="https://github.com/kekan94/react-router-pet-project" target="_blank" rel="noreferrer">Pet React Router</a></li>
