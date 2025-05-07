@@ -153,6 +153,7 @@ nav a {
 }
 
 #picture img {
+    height: 18rem;
     border-radius: 25% 10%;
 }
 

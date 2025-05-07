@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCss3Alt, faFacebook, faGit, faGithub, faHtml5, faJs, faReact } from "@fortawesome/free-brands-svg-icons";
 import { /*faDesktop, faMobile, faTablet,*/ faEnvelopeSquare, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
-const profileImage = require('./resources/img-profile-picture.jpg');
+const profileImage = require('./resources/ProfilePicture.jpg');
 const pdf = require('./resources/MarkoKekanovicCV.pdf');
 
 /*const htmlPagesArray = [
@@ -59,8 +59,7 @@ function App() {
                 <section id="goals">
                     <h2>Goals</h2>
                     <div id="description">
-                    <p>As stated before, during my studies at the Faculty of Physics in Belgrade, I found myself not having enough of an 
-                        interest in any of the subject matters thus promoting a decision to undergo Codecademy Front-end Engineer Career
+                    <p>As stated before, I elected to embark on a new learning journey and decided to start Codecademy's Front-end Engineer Career
                         Path as programming offers intellectual challenges in an exciting manner.</p>
                     <p>I was finally able to dedicate myself to learning and information retention and have been doing so for the past
                         two years. A lot of times, my perfectionism gets the best of me, thus leading me to research a lot of matters
