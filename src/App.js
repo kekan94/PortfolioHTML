@@ -47,10 +47,10 @@ function App() {
                         work pro bono. As years went by, I started falling in love with a myriad of natural sciences. During high school
                         years, I was also enamored with history as it was helping me understand civilizations and what brought about
                         the world as we know it. In the end, I decided to attend the Faculty of Physics in Belgrade, Serbia.
-                        After reaching the fourth year of my studies, I could not see myself having a career in physics. Thus, I left my studies and fell in love with 
-                        programming as I now see that it is the perfect way of being creative whilst also being able to see the fruits
-                        of my labor in action almost instantaneously. This also provides me with ample time to pursue my passion of
-                        physical training.</p>
+                        After reaching the fourth year of my studies and having completed my pre-exam obligations, I could not see myself having a 
+                        career in physics. After some soul-searching, I fell in love with programming as I now see that it is the perfect
+                        way of being creative whilst also being able to see the fruits of my labor in action almost instantaneously. 
+                        This also provides me with ample time to pursue my passion of physical training.</p>
                     </div>
                 </section>
                 <div className="design">
@@ -59,8 +59,8 @@ function App() {
                 <section id="goals">
                     <h2>Goals</h2>
                     <div id="description">
-                    <p>As stated before, I elected to embark on a new learning journey and decided to start Codecademy's Front-end Engineer Career
-                        Path as programming offers intellectual challenges in an exciting manner.</p>
+                    <p>As stated before, I elected to embark on a new learning journey and decided to start Codecademy's Front-end 
+                        Engineer Career Path as programming offers intellectual challenges in an exciting manner.</p>
                     <p>I was finally able to dedicate myself to learning and information retention and have been doing so for the past
                         two years. A lot of times, my perfectionism gets the best of me, thus leading me to research a lot of matters
                         that may have not been necessary in order to land me a job in the field.</p>
