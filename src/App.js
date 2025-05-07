@@ -6,7 +6,7 @@ import { faCss3Alt, faFacebook, faGit, faGithub, faHtml5, faJs, faReact } from "
 import { /*faDesktop, faMobile, faTablet,*/ faEnvelopeSquare, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 const profileImage = require('./resources/ProfilePicture.jpg');
-const pdf = require('./resources/MarkoKekanovicCV.pdf');
+const pdf = require('./resources/MarkoKekanovicCVEnglish.pdf');
 
 /*const htmlPagesArray = [
     '../Dasmotos-Arts-And-Crafts/index.html',
